@@ -134,7 +134,6 @@ The website is deployed and accessible at:
 
 ## Project Structure
 
-```plaintext
 techmart/
 ├── index.html              # Homepage
 ├── cart.html               # Cart Page
@@ -147,7 +146,6 @@ techmart/
 ├── js/
 │   ├── main.js             # JavaScript file
 ├── README.md               # Project documentation
----
 
 ## Future Improvements
 - Add a backend to handle user authentication and order processing.
