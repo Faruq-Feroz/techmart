@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart - Your Ultimate Electronics Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-bolt me-2"></i>TechMart
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">TVs & Home Theater</a></li>
+                            <li><a class="dropdown-item" href="#">Kitchen Appliances</a></li>
+                            <li><a class="dropdown-item" href="#">Computers & Laptops</a></li>
+                            <li><a class="dropdown-item" href="#">Smartphones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <div class="input-group me-3">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-outline-light" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <a href="cart.html" class="nav-link cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Orders</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Two Column Layout with Image Slider -->
+<div class="container mt-5"><br><br><br>
+    <div class="row align-items-center">
+         <!-- Text and Call to Action -->
+         <div class="col-md-6">
+            <h2 id="sliderTitle">Latest Smart TVs</h2>
+            <p id="sliderText">Experience crystal clear picture quality with our premium TV collection.</p>
+            <a href="#" class="btn modern-btn">Shop Now</a>
+        </div>
+        <!-- Image Slider -->
+        <div class="col-md-6">
+            <div class="image-slider">
+                <img id="sliderImage" src="https://images.pexels.com/photos/5721908/pexels-photo-5721908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Smart TVs">
+            </div>
+        </div>
+        
+    
+    </div>
+</div>
+
+    <!-- Categories Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Shop by Category</h2>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="category-card card">
+                    <img src="https://images.pexels.com/photos/5721908/pexels-photo-5721908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="TVs">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">TVs & Home Theater</h5>
+                        <a href="#" class="btn btn-primary">Browse</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="category-card card">
+                    <img src="https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Kitchen Appliances">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kitchen Appliances</h5>
+                        <a href="#" class="btn btn-primary">Browse</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="category-card card">
+                    <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Computers">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Computers & Laptops</h5>
+                        <a href="#" class="btn btn-primary">Browse</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="category-card card">
+                    <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Smartphones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Smartphones</h5>
+                        <a href="#" class="btn btn-primary">Browse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-card card">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Smart TV">
+                    <div class="card-body">
+                        <h5 class="card-title">65" 4K Smart TV</h5>
+                        <p class="card-text">Experience stunning visuals with HDR technology</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted text-decoration-line-through">Ksh70,000.99</span>
+                                <span class="text-primary fw-bold ms-2">ksh67,799.99</span>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card card">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDb84tvWmf2QH9LJ42V0KOPIhsMgzMvH6osA&s" class="card-img-top" alt="Blender">
+                    <div class="card-body">
+                        <h5 class="card-title">High-Speed Blender</h5>
+                        <p class="card-text">Perfect for smoothies, soups, and more</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted text-decoration-line-through">Ksh11,029.99</span>
+                                <span class="text-primary fw-bold ms-2">Ksh9,900.99</span>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card card">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultra-Thin Laptop</h5>
+                        <p class="card-text">Lightweight and powerful for on-the-go productivity</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted text-decoration-line-through">Ksh140,099</span>
+                                <span class="text-primary fw-bold ms-2">Ksh120,000.99</span>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card card">
+                    <span class="sale-badge">Sale!</span>
+                    <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Smartphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Latest Smartphone</h5>
+                        <p class="card-text">Capture every moment with the best camera phone</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted text-decoration-line-through">Ksh50,000.99</span>
+                                <span class="text-primary fw-bold ms-2">Ksh45,000.99</span>
+                            </div>
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">About TechMart</h5>
+                    <p class="footer-text">Your one-stop shop for all electronics and home appliances.</p>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                        <li><a href="#" class="footer-link">Shipping Policy</a></li>
+                        <li><a href="#" class="footer-link">Returns</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Customer Service Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Track Order</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom -->
+            <div class="footer-bottom text-center mt-4 pt-3 border-top">
+                <p class="footer-text mb-0">&copy; 2025 TechMart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="addToCartModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-check-circle me-2"></i>
+                        Item Added to Cart
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex align-items-center">
+                        <img src="product-image.jpg" alt="Product" class="me-3" style="width: 100px;">
+                        <div>
+                            <h6 class="product-name mb-1">Product Name</h6>
+                            <p class="text-success mb-0">Successfully added to your cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <a href="cart.html" class="btn btn-primary">View Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
