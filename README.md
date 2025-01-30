@@ -131,7 +131,6 @@ The website is deployed and accessible at:
 
 ---
 
-# TechMart
 
 ## Project Structure
 
@@ -148,6 +147,7 @@ techmart/
 ├── js/
 │   ├── main.js             # JavaScript file
 ├── README.md               # Project documentation
+---
 
 ## Future Improvements
 - Add a backend to handle user authentication and order processing.
