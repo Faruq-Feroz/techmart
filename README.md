@@ -2,9 +2,9 @@
 
 ## Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightblue)](https://event-manager-p021.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightblue)](https://techmart-theta.vercel.app/)
 
-### [![Home Screenshot](./assets/images/Screenshot%202025-01-30%20at%2003-07-01%20TechMart%20-%20Your%20Ultimate%20Electronics%20Store.png)](https://event-manager-p021.onrender.com/)
+### [![Home Screenshot](./assets/images/Screenshot%202025-01-30%20at%2003-07-01%20TechMart%20-%20Your%20Ultimate%20Electronics%20Store.png)](https://techmart-theta.vercel.app/)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
