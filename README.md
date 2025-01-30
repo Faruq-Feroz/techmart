@@ -88,7 +88,7 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
 
 5. **Deployment**:
    - Setting up the website on a hosting platform required understanding the deployment process.
-   - **Solution**: Used **GitHub Pages** for deployment, ensuring the website was live and accessible.
+   - **Solution**: Deployed the website using Vercel, which provides fast and reliable hosting with seamless integration for continuous deployment from GitHub
 
 ---
 
@@ -106,7 +106,7 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
    - Learned to use `localStorage` for persistent data storage.
 
 4. **Deployment**:
-   - Understood the process of deploying a website to a live server using **GitHub Pages**.
+   - Understood the process of deploying a website to a live server using **Vercel** for fast and efficient hosting.
 
 ---
 
@@ -114,7 +114,7 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
 
 ### Live Website
 The website is deployed and accessible at:  
-[TechMart Live Demo](https://your-username.github.io/techmart)
+[TechMart Live Demo](https://techmart-theta.vercel.app/)
 
 ### Running Locally
 1. **Clone the Repository**:
@@ -132,16 +132,19 @@ The website is deployed and accessible at:
 ---
 
 ## Project Structure
-```plaintext
 techmart/
 ├── index.html              # Homepage
 ├── cart.html               # Cart Page
 ├── contact.html            # Contact Page
 ├── assets/
-│   ├── css/                # CSS files
-│   ├── js/                 # JavaScript files
 │   ├── images/             # Image assets
+│   │   ├── Screenshot.png  # Example image file
+├── css/
+│   ├── styles.css          # Main stylesheet
+├── js/
+│   ├── main.js             # JavaScript file
 ├── README.md               # Project documentation
+
 ```
 
 ---
