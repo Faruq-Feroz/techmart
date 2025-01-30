@@ -4,7 +4,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightblue)](https://techmart-theta.vercel.app/)
 
-[![Home Screenshot](./assets/images/Screenshot.png)](https://techmart-theta.vercel.app/)
+![Home Screenshot](./assets/images/Screenshot.png)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
