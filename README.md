@@ -4,7 +4,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightblue)](https://techmart-theta.vercel.app/)
 
-### [![Home Screenshot](./assets/images/Screenshot%202025-01-30%20at%2003-07-01%20TechMart%20-%20Your%20Ultimate%20Electronics%20Store.png)](https://techmart-theta.vercel.app/)
+[![Home Screenshot](./assets/images/Screenshot.png)](https://techmart-theta.vercel.app/)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -30,7 +30,7 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
 ## Features
 
 ### 1. **Home Page**
-- **Hero Carousel**: A responsive image slider that dynamically rotates featured product images. Implemented using JavaScript to enhance user engagement by automatically cycling through images.
+- **Hero Carousel**: A responsive image slider that dynamically rotates featured product images.
 - **Category Cards**: Interactive cards for browsing products by category.
 - **Featured Products**: A grid of featured products with "Add to Cart" functionality.
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
@@ -60,7 +60,7 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
   - **JavaScript**: For interactivity and dynamic updates.
   - **Bootstrap**: For responsive layout and pre-built components.
 - **Deployment**:
-  - **GitHub Pages**: For hosting the live website.
+  - **Vercel**: For hosting the live website.
 - **Tools**:
   - **Google Fonts**: For typography.
   - **Font Awesome**: For icons.
@@ -71,42 +71,42 @@ The website is designed with a **modern and minimalistic aesthetic**, ensuring a
 ## Challenges Faced
 
 1. **Dynamic Cart Updates**:
-   - Implementing real-time updates for the cart page was challenging, especially ensuring that changes in quantity or removal of items were reflected immediately.
+   - Implementing real-time updates for the cart page was challenging.
    - **Solution**: Used `localStorage` to store cart data and dynamically updated the DOM using JavaScript.
 
 2. **Responsive Design**:
-   - Ensuring the website looked great on all screen sizes required careful use of media queries and flexible layouts.
-   - **Solution**: Tested the website on multiple devices and used Bootstrap's grid system for responsiveness.
+   - Ensuring the website looked great on all screen sizes.
+   - **Solution**: Used Bootstrap's grid system and media queries for responsiveness.
 
 3. **Form Validation**:
    - Validating the contact form without a backend was tricky.
    - **Solution**: Used JavaScript to validate inputs and provide real-time feedback to users.
 
 4. **Hero Carousel Implementation**:
-   - Creating an engaging, auto-rotating image slider required JavaScript logic to handle transitions and ensure smooth performance.
+   - Creating an engaging, auto-rotating image slider required JavaScript logic.
    - **Solution**: Used event listeners and timers to cycle through images dynamically.
 
 5. **Deployment**:
    - Setting up the website on a hosting platform required understanding the deployment process.
-   - **Solution**: Deployed the website using Vercel, which provides fast and reliable hosting with seamless integration for continuous deployment from GitHub
+   - **Solution**: Deployed the website using **Vercel**, which provides fast and reliable hosting with seamless GitHub integration.
 
 ---
 
 ## Learning Outcomes
 
 1. **HTML5 and Semantic Markup**:
-   - Learned to use semantic tags like `<header>`, `<main>`, `<section>`, and `<footer>` to create a well-structured website.
+   - Used semantic tags like `<header>`, `<main>`, `<section>`, and `<footer>` to create a well-structured website.
 
 2. **CSS3 and Responsive Design**:
-   - Gained experience in creating responsive layouts using **CSS Grid**, **Flexbox**, and **media queries**.
+   - Created responsive layouts using **CSS Grid**, **Flexbox**, and **media queries**.
    - Implemented modern design trends like **flat design** and **minimalism**.
 
 3. **JavaScript Interactivity**:
-   - Developed skills in using JavaScript to add dynamic functionality, such as updating the cart and validating forms.
-   - Learned to use `localStorage` for persistent data storage.
+   - Added dynamic functionality like updating the cart and validating forms.
+   - Used `localStorage` for persistent data storage.
 
 4. **Deployment**:
-   - Understood the process of deploying a website to a live server using **Vercel** for fast and efficient hosting.
+   - Understood the process of deploying a website using **Vercel** for fast and efficient hosting.
 
 ---
 
@@ -126,30 +126,29 @@ The website is deployed and accessible at:
    cd techmart
    ```
 3. **Open the Website**:
-   - Open the `index.html` file in your browser to view the homepage.
+   - Open the `index.html` file in your browser.
    - Alternatively, use a live server extension in your code editor.
 
 ---
-
-
-# TechMart
 
 ## Project Structure
 
 ```plaintext
 techmart/
-├── index.html              # Homepage
-├── cart.html               # Cart Page
-├── contact.html            # Contact Page
+├── index.html               # Homepage
+├── cart.html                # Cart Page
+├── contact.html             # Contact Page
 ├── assets/
-│   ├── images/             # Image assets
-│   │   ├── Screenshot.png  # Example image file
+│   ├── images/              # Image assets
+│   │   ├── Screenshot.png   # Example image file
 ├── css/
-│   ├── styles.css          # Main stylesheet
+│   ├── styles.css           # Main stylesheet
 ├── js/
-│   ├── main.js             # JavaScript file
-├── README.md               # Project documentation
+│   ├── main.js              # JavaScript file
+├── README.md                # Project documentation
+```
 
+---
 
 ## Future Improvements
 - Add a backend to handle user authentication and order processing.
