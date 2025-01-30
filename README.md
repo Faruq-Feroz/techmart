@@ -133,6 +133,7 @@ The website is deployed and accessible at:
 
 
 ## Project Structure
+```
 
 techmart/
 ├── index.html              # Homepage
