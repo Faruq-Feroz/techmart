@@ -144,9 +144,6 @@ techmart/
 ├── js/
 │   ├── main.js             # JavaScript file
 ├── README.md               # Project documentation
-
-```
-
 ---
 
 ## Future Improvements
