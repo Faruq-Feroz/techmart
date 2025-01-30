@@ -149,8 +149,6 @@ techmart/
 │   ├── main.js             # JavaScript file
 ├── README.md               # Project documentation
 
----
-
 ## Future Improvements
 - Add a backend to handle user authentication and order processing.
 - Implement a search functionality for products.
